@@ -1,0 +1,47 @@
+body {
+  background: url(../img/greyLake.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #3f3836;
+  height: 100%; }
+
+.centerBand {
+  width: 65%;
+  margin: 7em auto;
+  height: 35em;
+  display: block;
+  background: rgba(41, 80, 115, 0.7);
+  position: relative; }
+
+.title {
+  font-family: "league-gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 65%;
+  margin: 0px auto;
+  margin-bottom: -1.5em;
+  text-transform: uppercase;
+  font-size: 5em; }
+
+.titlehr {
+  border: 0.3em #3f3836 solid; }
+
+.moveB {
+  width: 10em;
+  height: 10em;
+  display: block;
+  background: #295073;
+  margin: 0px auto;
+  border-radius: 5em; }
+
+.getOutTheWay {
+  font-family: "garamond-premier-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1.4em;
+  color: #cec2b4;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: justify;
+  position: relative;
+  top: -8em;
+  z-index: 0; }

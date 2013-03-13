@@ -1,0 +1,77 @@
+@import 'bourbon/bourbon';
+
+$dkBlu: #295073;
+$mdBlu: #46718C;
+$ltBlu: #C6E0F1;
+$dkBrn: #3F3836;
+$ltBrn: #CEC2B4;
+
+body {
+    background: url(../img/greyLake.jpg) no-repeat center center fixed;
+    @include background-size(cover);
+    color: $dkBrn;
+    height: 100%;
+}
+
+.centerBand {
+    width: 65%;
+    margin: 7em auto;
+    height: 35em;
+    display: block;
+    background: transparentize($dkBlu,0.3);
+    position: relative;
+}
+
+.title {
+    font-family: "league-gothic", $helvetica;
+    width: 65%;
+    margin: 0px auto;
+    margin-bottom: -1.5em;
+    text-transform: uppercase;
+    font-size: 5em;
+    // color: $ltBrn;
+}
+
+.titlehr {
+    border: .3em $dkBrn solid;
+}
+
+.moveB {
+    width: 10em;
+    height: 10em;
+    display: block;
+    background: $dkBlu;
+    margin: 0px auto;
+    border-radius: 5em;
+
+    //====ATTEMPT 1
+    // webkit-shape-outside: rectangle(0, 0, 100%, 100%, 25%, 25%);
+    // -webkit-wrap-flow: auto;
+
+    //====ATTEMPT 2
+    // -webkit-wrap-flow: both;
+    // -webkit-wrap-margin: 10px;
+    // -webkit-padding-margin: 10px;
+    // -webkit-shape-outside: circle(50%, 50%, 50%);
+
+    //====ATTEMPT 3
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // wrap-flow: both;
+    // shape-outside: circle(50%, 50%, 30%);
+    // z-index: 0;
+}
+
+.getOutTheWay {
+    font-family: "garamond-premier-pro", $georgia;
+    font-size: 1.4em;
+    color: $ltBrn;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: justify;
+    // -webkit-wrap-flow: auto;
+    position: relative;
+    top: -8em;
+    z-index: 0;
+}
