@@ -45,8 +45,8 @@ body {
     border-radius: 5em;
 
     //====ATTEMPT 1
-    // webkit-shape-outside: rectangle(0, 0, 100%, 100%, 25%, 25%);
-    // -webkit-wrap-flow: auto;
+    // webkit-shape-outside: default(0, 0, 100%, 100%, 25%, 25%);
+    -webkit-wrap-flow: both;
 
     //====ATTEMPT 2
     // -webkit-wrap-flow: both;
@@ -72,6 +72,6 @@ body {
     text-align: justify;
     // -webkit-wrap-flow: auto;
     position: relative;
-    top: -8em;
+    top: 0em;
     z-index: 0;
 }

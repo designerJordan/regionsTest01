@@ -33,7 +33,8 @@ body {
   display: block;
   background: #295073;
   margin: 0px auto;
-  border-radius: 5em; }
+  border-radius: 5em;
+  -webkit-wrap-flow: both; }
 
 .getOutTheWay {
   font-family: "garamond-premier-pro", Georgia, Cambria, "Times New Roman", Times, serif;
@@ -43,5 +44,5 @@ body {
   padding-right: 1em;
   text-align: justify;
   position: relative;
-  top: -8em;
+  top: 0em;
   z-index: 0; }
